@@ -14,7 +14,7 @@
   ],
   "keywords": [],
   "author": "Mauro Sevillano",
-  "license": "UNLICENSED",
+  "license": "MIT License",
   "dependencies": {
     "serverless": "^1.46.1"
   },
