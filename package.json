@@ -1,7 +1,7 @@
 {
   "name": "serverless-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic template for Serverless project",
   "main": "./src/public/handler.js",
   "scripts": {
     "start": "serverless offline start --skipCacheInvalidation",
@@ -12,9 +12,13 @@
     "lint",
     "test"
   ],
-  "keywords": [],
+  "keywords": ["serverless", "node.JS", "ES6", "Jest", "template", "boilerplate"],
   "author": "Mauro Sevillano",
   "license": "MIT License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msevillano/serverlessBoilerplate"
+  },
   "dependencies": {
     "serverless": "^1.46.1"
   },
