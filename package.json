@@ -27,7 +27,8 @@
     "url": "https://github.com/msevillano/serverlessBoilerplate"
   },
   "dependencies": {
-    "serverless": "^1.48.2"
+    "serverless": "^1.48.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",

@@ -8,6 +8,7 @@
   },
   "extends": "google",
   "rules": {
+    "no-console": 2,
     "max-len": [2, 120]
   }
 }
