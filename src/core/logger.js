@@ -11,7 +11,7 @@ const logConfig = {
     fatal: 0,
   },
   colors: {
-    debug: 'blue',
+    debug: 'white',
     info: 'green',
     warn: 'yellow',
     fail: 'orange',
@@ -22,7 +22,7 @@ const logConfig = {
 
 winston.addColors(logConfig.colors);
 
-export default winston.createLogger({
+const logger = winston.createLogger({
   levels: logConfig.levels,
   format: winston.format.combine(
       winston.format.timestamp(),
@@ -39,3 +39,5 @@ export default winston.createLogger({
     },),
   ],
 });
+
+export default logger;
